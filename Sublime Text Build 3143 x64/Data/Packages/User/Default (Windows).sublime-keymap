@@ -1,0 +1,12 @@
+[
+// インサートモードから抜ける
+{ "keys": ["ctrl+["], "command": "exit_insert_mode",
+    "context":
+    [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+    ]
+},
+// ペイン（グループ）を切り替える
+{ "keys": ["ctrl+t", "o"], "command": "focus_neighboring_group" }
+]

@@ -1,0 +1,207 @@
+{ "name": "VB.NET",
+  "scopeName": "source.vbnet",
+  "fileTypes": ["vb"],
+  "patterns": [
+    { "include": "#comment-single-quote" },
+    { "include": "#comment-rem" },
+    { "include": "#keyword-a" },
+    { "include": "#keyword-b" },
+    { "include": "#keyword-c" },
+    { "include": "#keyword-d" },
+    { "include": "#keyword-e" },
+    { "include": "#keyword-f" },
+    { "include": "#keyword-g" },
+    { "include": "#keyword-h" },
+    { "include": "#keyword-i" },
+    { "include": "#keyword-j" },
+    { "include": "#keyword-k" },
+    { "include": "#keyword-l" },
+    { "include": "#keyword-m" },
+    { "include": "#keyword-n" },
+    { "include": "#keyword-o" },
+    { "include": "#keyword-p" },
+    { "include": "#keyword-r" },
+    { "include": "#keyword-s" },
+    { "include": "#keyword-t" },
+    { "include": "#keyword-u" },
+    { "include": "#keyword-v" },
+    { "include": "#keyword-w" },
+    { "include": "#keyword-x" },
+    { "include": "#keyword-y" },
+    { "include": "#integer-literal" },
+    { "include": "#floating-point-literal" },
+    { "include": "#character-literal" },
+    { "include": "#string-literal" },
+    { "include": "#date-literal" },
+    { "include": "#symbol" },
+    { "include": "#identifier" }
+  ],
+  "repository": {
+    "keyword-a": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(AddHandler|AddressOf|Aggregate|Alias|And|AndAlso|Ansi|As|Ascending|Assembly|Async(?=\\s+(Sub|Function))|Auto|Await)\\b",
+        "comment": "keywords A"
+    },
+    "keyword-b": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])((?<=Compare)\\s+Binary|Boolean|ByRef|Byte|ByVal)\\b",
+        "comment": "keywords B"
+    },
+    "keyword-c": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Call|Case|Catch|CBool|CByte|CChar|CDate|CDbl|CDec|Char|CInt|Class|CLng|CObj|(?<=Option\\s)Compare|Const|Continue|CShort|CSng|CStr|CType|Custom(?=\\s+Event))\\b",
+        "comment": "keywords C"
+    },
+    "keyword-d": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Date|Decimal|Declare|Default|Delegate|Descending|Dim|DirectCast|Distinct|Do|Double)\\b",
+        "comment": "keywords D"
+    },
+    "keyword-e": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Each|Else|ElseIf|End|EndIf|Enum|Equals|Erase|Error|Event|Exit|(?<=Option)\\s+Explicit)\\b",
+        "comment": "keywords E"
+    },
+    "keyword-f": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(False|Finally|For|Friend|From(?=\\s+{)|From|Function)\\b",
+        "comment": "keywords F"
+    },
+    "keyword-g": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Get|GetType|Global|GoSub|GoTo|Group\\s+By|Group)\\b",
+        "comment": "keywords G"
+    },
+    "keyword-h": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Handles)\\b",
+        "comment": "keywords H"
+    },
+    "keyword-i": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(If|Implements|Imports|In|(?<=Option)\\s+Infer|Inherits|Integer|Interface|Into|Is|IsNot|Iterator(?=\\s+(Function|Property)))\\b",
+        "comment": "keywords I"
+    },
+    "keyword-j": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Join)\\b",
+        "comment": "keywords J"
+    },
+    "keyword-k": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Key)\\b",
+        "comment": "keywords K"
+    },
+    "keyword-l": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Let|Lib|Like|Long|Loop)\\b",
+        "comment": "keywords L"
+    },
+    "keyword-m": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Me|Mod|Module|MustInherit|MustOverride|MyBase|MyClass)\\b",
+        "comment": "keywords M"
+    },
+    "keyword-n": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(NameOf|Namespace|Narrowing|New|Next|Not|Nothing|NotInheritable|NotOverridable)\\b",
+        "comment": "keywords N"
+    },
+    "keyword-o": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Object|Of|(?<=Explicit|Infer|Strict)\\s+Off|On|Operator|Option|Optional|Or|Order\\s+By|OrElse|Out|Overloads|Overridable|Overrides)\\b",
+        "comment": "keywords"
+    },
+    "keyword-p": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(ParamArray|Partial(?=\\s+(Class|Structure|Module|Interface))|Partial(?=\\s+(Class|Structure|Module|Interface|Sub|Public|Private|Protected|Friend|MustInherit|NotInheritable|NotOverrideable|Overridable|Shared))|Preserve|Private|Property|Protected|Public)\\b",
+        "comment": "keywords P"
+    },
+        "keyword-r": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(RaiseEvent|ReadOnly|ReDim|(?<=#|#End\\s)Region|RemoveHandler|Resume|Return)\\b",
+        "comment": "keywords R"
+    },
+    "keyword-s": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Select|Set|Shadows|Shared|Short|Single|Skip|Static|Step|Stop|(?<=Option)\\s+Strict|String|Structure|Sub|SyncLock)\\b",
+        "comment": "keywords S"
+    },
+    "keyword-t": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Take|(?<=Compare)\\s+Text|Then|Throw|To|True|Try|TryCast|TypeOf)\\b",
+        "comment": "keywords T"
+    },
+    "keyword-u": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Unicode|Until|Using)\\b",
+        "comment": "keywords U"
+    },
+    "keyword-v": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Variant)\\b",
+        "comment": "keywords B"
+    },
+    "keyword-w": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Wend|When|Where|While|Widening|With|WithEvents|WriteOnly)\\b",
+        "comment": "keywords W"
+    },
+    "keyword-x": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Xor)\\b",
+        "comment": "keywords X"
+    },
+    "keyword-y": {
+        "name": "keyword.other.vbnet",
+        "match": "(?i)(?<![.!])(Yield)\\b",
+        "comment": "keywords Y"
+    },
+    "identifier": {
+        "name": "variable.other.namespace-alias.vbnet",
+        "match": "(([\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{Lo}\\p{Nl}]|_[_\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{Lo}\\p{Nl}\\p{Nd}\\p{Mn}\\p{Mc}\\p{Cf}\\p{Pc}])[_\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{Lo}\\p{Nl}\\p{Nd}\\p{Mn}\\p{Mc}\\p{Cf}\\p{Pc}]*[%&@!#$]?|\\[([\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{Lo}\\p{Nl}]|_[_\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{Lo}\\p{Nl}\\p{Nd}\\p{Mn}\\p{Mc}\\p{Cf}\\p{Pc}])[_\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{Lo}\\p{Nl}\\p{Nd}\\p{Mn}\\p{Mc}\\p{Cf}\\p{Pc}]*\\])",
+        "comment": "identifiers"
+    },
+    "symbol": {
+        "name": "variable.other.namespace-alias.vbnet",
+        "match": "(([&*+\\-/\\\\^<=>])|([(){}!#,.:]|((?<= )_(?=\\s$)))|\\?)",
+        "comment": "symbols"
+    },
+    "integer-literal": {
+        "name": "string.quoted.double.vbnet",
+        "match": "(?i)(&H[0-9A-F]+|&O[0-7]+|&B[0-1]+|[0-9]+)(S|I|L|US|UI|UL|%|!)?",
+        "comment": "integer literals"
+    },
+    "floating-point-literal": {
+        "name": "string.quoted.double.vbnet",
+        "match": "(?i:[0-9]*(\\.[0-9]+)?((?<=[0-9])E[+-]?[0-9]+)?(?<=[0-9])[FRD@&#]?)",
+        "comment": "floating-point literals"
+    },
+    "string-literal": {
+        "name": "string.quoted.double.vbnet",
+        "match": "([\"\\x{201C}\\x{201D}]([^\"\\x{201C}\\x{201D}]|[\"\\x{201C}\\x{201D}]{2})*[\"\\x{201C}\\x{201D}])",
+        "comment": "string literals"
+    },
+    "character-literal": {
+        "name": "string.quoted.double.vbnet",
+        "match": "(?i:[\"\\x{201C}\\x{201D}]([^\"\\x{201C}\\x{201D}]|[\"\\x{201C}\\x{201D}]{2})[\"\\x{201C}\\x{201D}]C)",
+        "comment": "char literals"
+    },
+    "date-literal": {
+        "name": "string.quoted.double.vbnet",
+        "match": "(#\\s*(((((\\d+/\\d+/\\d+)|(\\d+-\\d+-\\d+))\\s+(\\d+:\\d+(:\\d+)?\\s*(AM|PM)?)))|((\\d+/\\d+/\\d+)|(\\d+-\\d+-\\d+))|(\\d+:\\d+(:\\d+)?\\s*(AM|PM)?))\\s*#)",
+        "comment": "date literals"
+    },
+    "comment-single-quote": {
+        "name": "comment.line.singlequote.vbnet",
+        "match": "['\\x{2018}\\x{2019}][^\\r\\n]*",
+        "comment": "comments single-quote"
+    },
+    "comment-rem": {
+        "name": "comment.line.singlequote.vbnet",
+        "match": "(?i)(?<=[^_\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{Lo}\\p{Nl}\\p{Nd}\\p{Mn}\\p{Mc}\\p{Cf}\\p{Pc}])REM((?=[\\r|\\n])| [^\\r\\n]*)",
+        "comment": "comments REM"
+    }
+  },
+  "uuid": "975d5447-0eb5-444c-a471-5934193ca1ea"
+}

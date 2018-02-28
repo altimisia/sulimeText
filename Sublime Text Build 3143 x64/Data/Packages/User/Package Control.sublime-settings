@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Compare Side-By-Side",
+		"ConvertToUTF8",
+		"IMESupport",
+		"Japanize",
+		"Package Control"
+	]
+}
