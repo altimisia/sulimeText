@@ -8,5 +8,16 @@
     ]
 },
 // ペイン（グループ）を切り替える
-{ "keys": ["ctrl+t", "o"], "command": "focus_neighboring_group" }
+{ "keys": ["ctrl+t", "o"], "command": "focus_neighboring_group" },
+
+// ctrl + i でインデント調整
+{ "keys": ["ctrl+i"], "command": "reindent" , "args": {"single_line": false}},
+
+// F3で関数の宣言元にジャンプ
+{ "keys": ["f3"], "command": "goto_definition" },
+// alt+左で戻る
+{ "keys": ["alt+left"], "command": "jump_back" },
+// alt+右で戻ったのをまた進める
+{ "keys": ["alt+right"], "command": "jump_forward" },
+
 ]

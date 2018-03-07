@@ -9,6 +9,8 @@
 		"ConvertToUTF8",
 		"IMESupport",
 		"Japanize",
-		"Package Control"
+		"Package Control",
+		"TrailingSpaces",
+		"VBScript"
 	]
 }

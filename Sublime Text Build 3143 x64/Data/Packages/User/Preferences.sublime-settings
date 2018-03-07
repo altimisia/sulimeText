@@ -1,12 +1,13 @@
 {
 	"draw_indent_guides": true,
 	"fold_buttons": true,
-	"font_size": 9,
+	"font_size": 8,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 	],
+	"open_files_in_new_window": false,
 	"show_encoding": true,
 	"show_line_endings": false,
 	"tab_size": 4,
