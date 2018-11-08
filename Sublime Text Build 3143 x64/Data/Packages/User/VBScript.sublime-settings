@@ -1,6 +1,8 @@
 {
 	"extensions":
 	[
-		"frm"
+		"frm",
+		"cls",
+		"ctl"
 	]
 }
